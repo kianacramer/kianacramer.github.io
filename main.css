@@ -1,7 +1,10 @@
 body {
-	font-family:arial;
-	background-color:purple; }
+	background-color:#E6E6E6; 
+	font-family:Arial; }
+h1 {
+	font-family: 'Great Vibes', cursive;
+	text-align: center;}
 p {
-	font-family:arial;
-	background-color:green;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
 	}
