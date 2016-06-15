@@ -1,74 +1,83 @@
-body { 
-	font-family:Arial; 
+body {
+	font-size:12px;
 	background-color:white;
 	margin: 0 auto;
-	}
-
-a {
-	text-decoration:none;
-	color:black;
 }
 
-a:hover {
-	color:#8A0808;
+header {
+	font-family:"Lato";
+	margin:10px auto 10px auto;
+	padding:20px;
+
 }
 
-a:visited {
-	color:#B40404;
+header .row, footer .row {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
 }
 
-.header p {
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	font-size: 48px;
-	z-index:10;
-	text-transform:uppercase;
-	}
-	
-.nav {
-	align:center;
-	padding:10px;
-	margin:10px;
+header h1 {
+	font-size:50px;
+	font-style:bold;
+	font-family: 'Dancing Script', cursive;
+	margin: 0;
 }
-	
-.nav a {
-	text-decoration: none;
-	font-family: 'Crimson Text', serif;
-}	
 
-p {
-	font-family: 'Crimson Text', serif;
-	text-align: center;
-	}
-	
-.content {
-	font-family: 'Droid Serif', serif;
+header nav li {
+	color:white;
+	display: inline;
+	padding:15px 30px 15px 30px;
+	width:100px;
+	text-align:left;
+	background-color:#424242;
+}
+
+header nav li a {
+	color:white;
 	font-size:16px;
+	text-transform:uppercase;
+	position:relative;
+	text-decoration:none;
 }
 
-.content p {
-	padding: 5px;
+
+header nav li:hover {
+	background-color: #000000;
 }
 
-.info {
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
-	font-weight:bold;
+header nav li a:visited {
+	background-color: #610B21;
 }
-	
-blockquote {
-	align:center;
-	width:275px;
-	font-style: italic;
-	font-size:30px;
+
+header nav li a:active {
+	top:2px;
+}
+
+header nav li a:hover {
+	text-decoration:none;
+}
+
+section .row img{
+	background-color: #efefef;
+	width:300px;
+	height:300px;
+	margin:10px;
+	display: inline;
+}
+
+footer {
+	padding: 10px;
+	margin:10px;
+	font-size:16px;
 	font-family: 'Crimson Text', serif;
-	padding:10px;
-	margin:0px 0px 10px 10px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
 }
 
-#footer {
-	font-family: 'Crimson Text', serif;
-	font-size: 10px;
+footer ul {
+	list-style:none;
+}
+
+footer li img {
+	width:32px;
+	height:32px;
 }
